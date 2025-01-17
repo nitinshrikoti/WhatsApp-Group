@@ -1,0 +1,26 @@
+:root {
+  --fc-yellow: #0C6C4B;
+  --bg-color: #FEED02;
+}
+
+.bg-img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+}
+
+.nav-logo {
+  width: auto;
+  height: 60px;
+}
+
+.style1 {
+  color: var(--fc-yellow);
+  background-color: var(--bg-color);
+}
