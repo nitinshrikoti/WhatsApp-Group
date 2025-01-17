@@ -1,12 +1,16 @@
 :root {
-  --fc-yellow: #0C6C4B;
-  --bg-color: #FEED02;
+  --color-1: #0c6c4b;
+  --color-2: #ffffff;
+  --color-3: #feed02;
+  --color-4: #2F6146;
+  --color-5: #E8E8E8;
+
 }
 
 .bg-img {
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   top: 0;
   left: 0;
@@ -21,6 +25,45 @@
 }
 
 .style1 {
-  color: var(--fc-yellow);
-  background-color: var(--bg-color);
+  background-color: var(--color-3);
+  color: var(--color-1);
+}
+
+
+.join-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  border: none;
+  background: var(--color-1);
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--color-2);
+
+  &:hover { 
+    background: var(--color-4);
+  }
+}
+
+/* ---------- Testinomial Section ---------- */
+
+#testinomail {
+  background-color: var(--color-5);
+}
+
+.testinomial-profile {
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+.testinomial-profile > img {
+ height: 60px;
+ width: 60px;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ -ms-border-radius: 50%;
+ -o-border-radius: 50%;
 }
