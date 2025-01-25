@@ -2,11 +2,19 @@
   --color-1: #0c6c4b;
   --color-2: #ffffff;
   --color-3: #feed02;
-  --color-4: #2F6146;
-  --color-5: #E8E8E8;
-
+  --color-4: #2f6146;
+  --color-5: #e8e8e8;
+  --color-6: #185f33;
+  --color-7: #4da757;
+  --color-8: #0d4012;
 }
 
+/* ---------- Utiltiy ---------- */
+.fc-1 {
+  color: var(--color-2);
+}
+
+/* ---------- Hero Section ---------- */
 .bg-img {
   position: absolute;
   height: 100%;
@@ -24,11 +32,14 @@
   height: 60px;
 }
 
+.hero-style {
+  color: var(--color-2);
+}
+
 .style1 {
   background-color: var(--color-3);
   color: var(--color-1);
 }
-
 
 .join-button {
   display: flex;
@@ -43,7 +54,7 @@
   cursor: pointer;
   color: var(--color-2);
 
-  &:hover { 
+  &:hover {
     background: var(--color-4);
   }
 }
@@ -59,11 +70,52 @@
 }
 
 .testinomial-profile > img {
- height: 60px;
- width: 60px;
- border-radius: 50%;
- -webkit-border-radius: 50%;
- -moz-border-radius: 50%;
- -ms-border-radius: 50%;
- -o-border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* ---------- Footer Section ---------- */
+.footer-column-1 {
+  background-color: var(--color-6);
+  height: 400px;
+}
+
+.footer-column-1 > img {
+  height: 80px;
+  width: 180px;
+}
+
+.footer-column-1 > div {
+}
+.footer-column-1 > div > p {
+  color: var(--color-2);
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.footer-column-2 {
+  background-color: var(--color-7);
+  height: 400px;
+}
+
+div > p {
+  margin: 0px;
+}
+
+.social-logo {
+  padding-right: 5px;
+}
+
+.social-logo > img {
+  height: 20px;
+  width: 20px;
+}
+
+.copyright-tab {
+  background-color: var(--color-8);
 }
